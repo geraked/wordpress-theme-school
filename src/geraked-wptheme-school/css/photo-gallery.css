@@ -1,0 +1,37 @@
+ul {         
+	padding:0;
+	margin:0;
+}
+.photo-gallery ul li {     
+	list-style:none;
+	margin-bottom:25px;
+}
+.photo-gallery ul li img {
+	margin: 0;
+	cursor: pointer;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 3px;
+	-webkit-transition:border .2s ease-in-out;
+	-o-transition:border .2s ease-in-out;
+	transition:border .2s ease-in-out 	
+}
+.photo-gallery ul li img:hover {
+	border-color: #337ab7;
+}
+.photo-gallery .modal-body {
+	padding:5px !important;
+}
+.photo-gallery .modal-dialog img {
+	text-align:center;
+	margin:0 auto;
+}
+.photo-gallery .controls{          
+	margin: 8px 0 5px;
+}
+.photo-gallery .previous {
+	text-align: left;
+}
+.photo-gallery .modal-dialog {
+	max-width:750px;
+}
