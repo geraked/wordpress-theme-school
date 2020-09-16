@@ -7,17 +7,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>
 		<?php
-
 		bloginfo('name');
 		// is_home() ? bloginfo('description') : wp_title('');
-
 		?>
 	</title>
+	<link rel="icon" href="<?php bloginfo('template_url'); ?>/images/book.png" type="image/png"> 
 	<link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php bloginfo('template_url'); ?>/css/bootstrap-rtl.min.css" rel="stylesheet">
 	<link href="<?php bloginfo('template_url'); ?>/css/font-awesome.css" rel="stylesheet">
 	<link href="<?php bloginfo('template_url'); ?>/css/animate.css" rel="stylesheet">
-	<link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet">
+	<link href="<?php bloginfo('template_url'); ?>/style.css?v=1.6.1" rel="stylesheet">
 	<link href="<?php bloginfo('template_url'); ?>/css/photo-gallery.css" rel="stylesheet">
 	<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -27,6 +26,10 @@
 </head>
 
 <body>
+
+	<div id="main-loader">
+		<div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+	</div>
 
 	<!-- header -->
 	<header>

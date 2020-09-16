@@ -34,7 +34,7 @@ include 'last-posts.php';
 include 'last-comments.php';
 include 'links.php';
 include 'search.php';
-include 'nmr-login.php';
+include 'lms-login.php';
 include 'html.php';
 
 if ( is_plugin_active( 'wp-jalali/wp-jalali.php' ) )

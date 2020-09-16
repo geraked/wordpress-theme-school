@@ -4,7 +4,7 @@ Theme URI: https://github.com/geraked/wordpress-theme-school
 Author: Rabist - Geraked
 Author URI: https://github.com/geraked/wordpress-theme-school
 Description: پوسته ای مناسب برای مدارس
-Version: 1.5.0
+Version: 1.6.1
 Text Domain: اسکول
 */
 
@@ -16,15 +16,6 @@ Text Domain: اسکول
         url("fonts/Yekan.woff") format("woff"),
         url("fonts/Yekan.ttf") format("truetype"),
         url("fonts/Yekan.svg#BYekan") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "IranSans";
-    src: url("fonts/IRANSans-web.eot");
-    src: url("fonts/IRANSans-web.eot?#iefix") format("embedded-opentype"),
-        url("fonts/IRANSans-web.woff") format("woff"),
-        url("fonts/IRANSans-web.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -45,7 +36,7 @@ Text Domain: اسکول
         url("fonts/BNazanin.ttf") format("truetype");
     font-weight: 400;
     font-stretch: normal;
-    /*font-style: normal;*/
+    font-style: normal;
 }
 @font-face {
     font-family: "Nazanin";
@@ -55,7 +46,33 @@ Text Domain: اسکول
         url("fonts/BNaznnBd.ttf") format("truetype");
     font-weight: 700;
     font-stretch: normal;
-    /*font-style: normal;*/
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IranSans";
+    src: url("fonts/iransans-ultralight.woff");
+    font-weight: lighter;
+}
+@font-face {
+    font-family: "IranSans";
+    src: url("fonts/iransans-light.woff");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "IranSans";
+    src: url("fonts/iransans-medium.woff");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "IranSans";
+    src: url("fonts/iransans-bold.woff");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "IranSans";
+    src: url("fonts/iransans.woff");
+    font-weight: normal;
 }
 /*------------------------------- End of Fonts ------------------------------- */
 
@@ -118,7 +135,7 @@ header h4 {
 #custom-bootstrap-menu.navbar {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: -1px;
     z-index: 1020;
     border-radius: 0;
     border: none;
@@ -298,6 +315,12 @@ header h4 {
 }
 .sidebar .well h4 i {
     display: none;
+}
+.login button[type="submit"] {
+    width: 100%;
+}
+.login .forget-link {
+    margin-top: 10px;
 }
 /*------------------------------- end of sidebar ------------------------------- */
 
@@ -605,6 +628,60 @@ footer #bottom-footer p {
     margin: 0;
 }
 /*------------------------------- end of footer ------------------------------- */
+
+/*------------------------------- Loading ------------------------------- */
+#main-loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+}
+#main-loader img {
+    width: 80px;
+}
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #343a40;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #343a40 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/*------------------------------- end of Loading ------------------------------- */
+
 
 @media only screen and (min-width: 768px) {
     #custom-bootstrap-menu.navbar-default .navbar-brand {
