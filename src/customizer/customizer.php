@@ -615,8 +615,6 @@ class Sch_Customizer
 				'choices'  => array(
 					'yekan'         => 'yekan',
 					'IranSans'  	=> 'IranSans',
-					'Koodak'        => 'Koodak',
-					'Nazanin'		=> 'Nazanin',
 				),
 				'priority' => 1
 			)
@@ -1077,24 +1075,6 @@ class Sch_Customizer
 			)
 		);
 
-		// post short title
-		$wp_customize->add_setting(
-			'general_post_short_title',
-			array(
-				'default'  => 42,
-			)
-		);
-		$wp_customize->add_control(
-			'general_post_short_title_control',
-			array(
-				'label'    => __('تعداد کاراکترهای خلاصه عنوان مطلب', 'school'),
-				'section'  => 'sch_general_options',
-				'settings' => 'general_post_short_title',
-				'type'     => 'number',
-				'priority' => 2
-			)
-		);
-
 		// post short cnt
 		$wp_customize->add_setting(
 			'general_post_short_cnt',
@@ -1158,7 +1138,7 @@ class Sch_Customizer
 				background-repeat: <?php echo get_theme_mod('body_bg_repeat_image', ''); ?>;
 				background-position: <?php echo get_theme_mod('body_bg_position_image', ''); ?>;
 				background-color: <?php echo get_theme_mod('body_bg_color', ''); ?>;
-				font-family: '<?php echo get_theme_mod('font_family', 'yekan'); ?>';
+				font-family: '<?php echo get_theme_mod('font_family', 'yekan'); ?>', Arial, Helvetica, sans-serif;
 				font-size: <?php echo get_theme_mod('font_body_size', '14px'); ?>;
 			}
 
@@ -1361,8 +1341,7 @@ class Sch_Customizer
 				font-size: <?php echo get_theme_mod('font_size_single_post_small', '12px'); ?>;
 			}
 
-			.single-post-content,
-			.single-post-content p {
+			.single-post-content {
 				font-size: <?php echo get_theme_mod('font_size_single_post_p', '14px'); ?>;
 				line-height: <?php echo get_theme_mod('font_line_single_post', '1.82'); ?>;
 			}

@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php bloginfo('name'); ?> | <?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
+	<link rel="icon" href="<?php bloginfo('template_url'); ?>/images/icon.png" type="image/png">
 	<link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
 	<link href="<?php bloginfo('template_url'); ?>/css/bootstrap-rtl.min.css" rel="stylesheet">
 	<link href="<?php bloginfo('template_url'); ?>/css/font-awesome.css" rel="stylesheet">

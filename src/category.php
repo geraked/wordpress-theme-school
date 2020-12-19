@@ -21,7 +21,7 @@
 						<?php post_image(320, 180); ?>
 					</a>
 					<h3>
-						<a href="<?php the_permalink(); ?>"><?php sch_title(get_theme_mod('general_post_short_title', 42)); ?></a>
+						<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 					</h3>
 					<p class="small"><span class="glyphicon glyphicon-time"></span> <?php /*the_time('j F Y');*/ get_publish_jdate(); ?> &nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-list"></span> <?php the_category(', '); ?></p>
 					<p><?php sch_content(get_theme_mod('general_post_short_cnt', 250)); ?></p>

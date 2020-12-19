@@ -28,10 +28,7 @@ class sch_last_posts extends WP_Widget {
 			$icon = 'fa-file-text-o';
 		
 		if(empty($num))
-			$num = 4; 
-
-		if(empty($title_cnt))
-			$title_cnt = 37;			
+			$num = 4; 		
 
 		if(empty($content_cnt))
 			$content_cnt = 70;
@@ -58,7 +55,7 @@ class sch_last_posts extends WP_Widget {
 				<div class="list-group">
 					<a href="<?php the_permalink(); ?>" class="list-group-item">
 						<?php post_image(96, 54); ?>
-						<h5 class="list-group-item-heading"><?php sch_title($title_cnt); ?></h5>
+						<h5 class="list-group-item-heading"><?php the_title(); ?></h5>
 						<!-- <h6></h6> -->
 						<!-- get_publish_jdate(); -->
 						<p class="list-group-item-text small"><?php sch_content($content_cnt); ?></p>
@@ -84,10 +81,7 @@ class sch_last_posts extends WP_Widget {
 			$icon = 'fa-file-text-o';
 		
 		if(empty($num))
-			$num = 4;
-
-		if(empty($title_cnt))
-			$title_cnt = 37;			
+			$num = 4;		
 
 		if(empty($content_cnt))
 			$content_cnt = 70;			
@@ -118,10 +112,6 @@ class sch_last_posts extends WP_Widget {
 			<input class="widefat" style="direction:ltr;" onkeypress="return isNumberKey(event)" id="<?php echo $this->get_field_id( 'num' ); ?>" name="<?php echo $this->get_field_name( 'num' ); ?>" type="text" value="<?php echo esc_attr( $num ); ?>" />
 		</p>
 		<p>	
-			<label for="<?php echo $this->get_field_id( 'title_cnt' ); ?>"><?php _e( 'تعداد کاراکترهای عنوان مطلب:' ); ?></label> 
-			<input class="widefat" style="direction:ltr;" onkeypress="return isNumberKey(event)" id="<?php echo $this->get_field_id( 'title_cnt' ); ?>" name="<?php echo $this->get_field_name( 'title_cnt' ); ?>" type="text" value="<?php echo esc_attr( $title_cnt ); ?>" />
-		</p>
-		<p>	
 			<label for="<?php echo $this->get_field_id( 'content_cnt' ); ?>"><?php _e( 'تعداد کاراکترهای مطلب:' ); ?></label> 
 			<input class="widefat" style="direction:ltr;" onkeypress="return isNumberKey(event)" id="<?php echo $this->get_field_id( 'content_cnt' ); ?>" name="<?php echo $this->get_field_name( 'content_cnt' ); ?>" type="text" value="<?php echo esc_attr( $content_cnt ); ?>" />
 		</p>				
@@ -146,7 +136,6 @@ class sch_last_posts extends WP_Widget {
 		$instance['title'] 		 = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
 		$instance['icon'] 		 = ( ! empty( $new_instance['icon'] ) ) ? strip_tags( $new_instance['icon'] ) : '';
 		$instance['num']		 = ( ! empty( $new_instance['num'] ) ) ? strip_tags( $new_instance['num'] ) : '';
-		$instance['title_cnt']	 = ( ! empty( $new_instance['title_cnt'] ) ) ? strip_tags( $new_instance['title_cnt'] ) : '';
 		$instance['content_cnt'] = ( ! empty( $new_instance['content_cnt'] ) ) ? strip_tags( $new_instance['content_cnt'] ) : '';
 		$instance['category']	 = $new_instance['category'];
 		return $instance;

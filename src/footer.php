@@ -67,12 +67,12 @@
 		<script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
 		<script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 		<script src="<?php bloginfo('template_url'); ?>/js/photo-gallery.js"></script>
-		<script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/script.js?v=1.6.3"></script>
 		<script>
 			$(window).on("load", function () {
 				setTimeout(function () {
 					$("#main-loader").fadeOut(300);
-				}, 1000);
+				}, 100);
 			});
 		</script>
 

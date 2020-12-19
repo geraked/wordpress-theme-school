@@ -1,10 +1,10 @@
 /*
 Theme Name: اسکول
-Theme URI: https://github.com/geraked/wordpress-theme-school
+Theme URI: https://github.com/geraked/theme-wordpress-school
 Author: Rabist - Geraked
-Author URI: https://github.com/geraked/wordpress-theme-school
+Author URI: https://www.linkedin.com/in/rabist
 Description: پوسته ای مناسب برای مدارس
-Version: 1.6.1
+Version: 1.6.3
 Text Domain: اسکول
 */
 
@@ -17,35 +17,6 @@ Text Domain: اسکول
         url("fonts/Yekan.ttf") format("truetype"),
         url("fonts/Yekan.svg#BYekan") format("svg");
     font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Koodak";
-    src: url("fonts/BKoodakBold.eot");
-    src: url("fonts/BKoodakBold.eot?#iefix") format("embedded-opentype"),
-        url("fonts/BKoodakBold.woff") format("woff"),
-        url("fonts/BKoodakBold.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Nazanin";
-    src: local("B Nazanin"), local("BNazanin"),
-        url("fonts/BNazanin.woff2") format("woff2"),
-        url("fonts/BNazanin.woff") format("woff"),
-        url("fonts/BNazanin.ttf") format("truetype");
-    font-weight: 400;
-    font-stretch: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Nazanin";
-    src: local("B Nazanin Bold"), local("BNazanin-Bold"),
-        url("fonts/BNaznnBd.woff2") format("woff2"),
-        url("fonts/BNaznnBd.woff") format("woff"),
-        url("fonts/BNaznnBd.ttf") format("truetype");
-    font-weight: 700;
-    font-stretch: normal;
     font-style: normal;
 }
 
@@ -111,6 +82,39 @@ a:focus,
     outline: none;
     outline-offset: none;
 }
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #bdc3c7 #ecf0f1;
+}
+*::-webkit-scrollbar {
+    width: 7px;
+}
+*::-webkit-scrollbar-track {
+    background: rgb(46, 53, 63, 0.2);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #2e353f;
+    border-radius: 0;
+    border: 1px solid rgb(46, 53, 63, 0.2);
+}
+
+.list-group-item-heading,
+.home-post > h3,
+.home-post > p.small {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.list-group-item-heading {
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+.home-post > h3,
+.home-post > p.small {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
 /*------------------------------- End of body ------------------------------- */
 
 /*------------------------------- jumbotron ------------------------------- */
@@ -120,6 +124,7 @@ header {
     background-color: #0b6688;
     border-bottom: 3px solid #0a5a77;
     color: #ffffff;
+    user-select: none;
 }
 header h2 {
     margin: 0;
@@ -128,6 +133,9 @@ header h2 {
 header h4 {
     margin: 0;
     margin-top: 7px;
+}
+header img {
+    pointer-events: none;
 }
 /*------------------------------- end of jumbotron ------------------------------- */
 
@@ -293,7 +301,8 @@ header h4 {
     margin: 0;
 }
 .sidebar .side-comment li a {
-    display: block;
+    display: flex;
+    align-items: center;
     color: #555;
     padding: 5px;
     border-radius: 5px;
@@ -333,6 +342,9 @@ header h4 {
 }
 #carousel-example-generic .carousel-inner .item img {
     width: 100%;
+}
+.carousel-indicators {
+    direction: ltr;
 }
 .home-post > h3 {
     margin-top: 0;
@@ -397,12 +409,18 @@ header h4 {
     max-width: 100%;
     height: auto;
 }
-.single-post-content,
-.single-post-content p {
+.single-post-content {
     margin-bottom: 15px;
     text-align: justify;
     line-height: 1.82;
     font-size: 14px;
+}
+.single-post-content p {
+    margin-bottom: 15px;
+}
+.single-post-content ul {
+    padding-right: 30px;
+    margin-bottom: 15px;
 }
 .single-post-content table {
     width: 100%;
@@ -499,7 +517,8 @@ footer #top-footer .foot-comment {
     margin: 0;
 }
 footer #top-footer .foot-comment li a {
-    display: block;
+    display: flex;
+    align-items: center;
     color: #555;
     padding: 5px;
     border-radius: 5px;
@@ -635,16 +654,14 @@ footer #bottom-footer p {
     left: 0;
     top: 0;
     background: #fff;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 99999;
 }
-#main-loader img {
-    width: 80px;
-}
+
 .lds-ring {
     display: inline-block;
     position: relative;
@@ -680,8 +697,63 @@ footer #bottom-footer p {
         transform: rotate(360deg);
     }
 }
-/*------------------------------- end of Loading ------------------------------- */
 
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #343a40;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(24px, 0);
+    }
+}
+/*------------------------------- end of Loading ------------------------------- */
 
 @media only screen and (min-width: 768px) {
     #custom-bootstrap-menu.navbar-default .navbar-brand {
@@ -737,8 +809,8 @@ footer #bottom-footer p {
     header {
         padding-top: 5px;
     }
-    header .col-md-4:first-child img,
-    header .col-md-4:last-child img {
+    header .col-sm-2:first-child img,
+    header .col-sm-2:last-child img {
         display: none;
     }
     #carousel-example-generic {
