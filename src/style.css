@@ -4,7 +4,7 @@ Theme URI: https://github.com/geraked/theme-wordpress-school
 Author: Rabist - Geraked
 Author URI: https://www.linkedin.com/in/rabist
 Description: پوسته ای مناسب برای مدارس
-Version: 1.6.3
+Version: 1.6.4
 Text Domain: اسکول
 */
 
@@ -85,18 +85,18 @@ a:focus,
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: #bdc3c7 #ecf0f1;
+    scrollbar-color: #c1c1c1 #f1f1f1;
 }
 *::-webkit-scrollbar {
     width: 7px;
 }
 *::-webkit-scrollbar-track {
-    background: rgb(46, 53, 63, 0.2);
+    background: #f1f1f1;
 }
 *::-webkit-scrollbar-thumb {
-    background-color: #2e353f;
+    background-color: #c1c1c1;
     border-radius: 0;
-    border: 1px solid rgb(46, 53, 63, 0.2);
+    border: 0px solid #f1f1f1;
 }
 
 .list-group-item-heading,

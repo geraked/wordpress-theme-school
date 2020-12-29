@@ -16,7 +16,7 @@
 	<link href="<?php bloginfo('template_url'); ?>/css/bootstrap-rtl.min.css" rel="stylesheet">
 	<link href="<?php bloginfo('template_url'); ?>/css/font-awesome.css" rel="stylesheet">
 	<link href="<?php bloginfo('template_url'); ?>/css/animate.css" rel="stylesheet">
-	<link href="<?php bloginfo('template_url'); ?>/style.css?v=1.6.3" rel="stylesheet">
+	<link href="<?php bloginfo('template_url'); ?>/style.css?v=1.6.4" rel="stylesheet">
 	<link href="<?php bloginfo('template_url'); ?>/css/photo-gallery.css" rel="stylesheet">
 	<!--[if lt IE 9]>
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
