@@ -73,13 +73,19 @@ $(document).ready(function () {
 			$(this).css("direction", "ltr");
 		}
 	});
-	$('.login input[type="text"], .login input[type="password"]').on('change load ready', function () {
-		if ($(this).val() == "") {
-			$(this).css("direction", "rtl");
-		} else {
-			$(this).css("direction", "ltr");
-		}
-	});
+
+	initiateLoginInputs();
+
+	function initiateLoginInputs() {
+		let inputs = document.querySelectorAll('.login input[type="text"], .login input[type="password"]');
+		inputs.forEach(e => {
+			if (e.value == "") {
+				e.style.direction = 'rtl';
+			} else {
+				e.style.direction = 'ltr';
+			}
+		});
+	}
 	//------------------------------------------------
 
 });

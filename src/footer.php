@@ -67,7 +67,7 @@
 		<script src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
 		<script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
 		<script src="<?php bloginfo('template_url'); ?>/js/photo-gallery.js"></script>
-		<script src="<?php bloginfo('template_url'); ?>/js/script.js?v=1.6.4"></script>
+		<script src="<?php bloginfo('template_url'); ?>/js/script.js?v=1.6.5"></script>
 		<script>
 			$(window).on("load", function () {
 				setTimeout(function () {

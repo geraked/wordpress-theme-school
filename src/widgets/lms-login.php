@@ -63,7 +63,7 @@ class sch_lms_login extends WP_Widget {
 
 						<form action="<?php echo $turl; ?>" method="post">
 							<div class="form-group">
-								<input type="text" name="username" id="tusername" class="form-control" placeholder="نام کاربری">
+								<input type="text" spellcheck="false" name="username" id="tusername" class="form-control" placeholder="نام کاربری">
 							</div>
 							<div class="form-group">
 								<input type="password" name="password" id="tpass" class="form-control" placeholder="رمز عبور">
@@ -91,7 +91,7 @@ class sch_lms_login extends WP_Widget {
 					
 						<form action="<?php echo $surl; ?>" method="post">
 							<div class="form-group">
-								<input type="text" name="username" id="susername" class="form-control" placeholder="نام کاربری">
+								<input type="text" spellcheck="false" name="username" id="susername" class="form-control" placeholder="نام کاربری">
 							</div>
 							<div class="form-group">
 								<input type="password" name="password" id="spass" class="form-control" placeholder="رمز عبور">
