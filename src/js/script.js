@@ -59,33 +59,7 @@ $(document).ready(function () {
 		}
 	});
 
-	let placeValue = "";
-	$('.login input[type="text"], .login input[type="password"]').focusin(function () {
-		placeValue = $(this).attr("placeholder");
-		$(this).attr("placeholder", "");
-		$(this).css("direction", "ltr");
-	});
-	$('.login input[type="text"], .login input[type="password"]').focusout(function () {
-		$(this).attr("placeholder", placeValue);
-		if ($(this).val() == "") {
-			$(this).css("direction", "rtl");
-		} else {
-			$(this).css("direction", "ltr");
-		}
-	});
-
 	initiateLoginInputs();
-
-	function initiateLoginInputs() {
-		let inputs = document.querySelectorAll('.login input[type="text"], .login input[type="password"]');
-		inputs.forEach(e => {
-			if (e.value == "") {
-				e.style.direction = 'rtl';
-			} else {
-				e.style.direction = 'ltr';
-			}
-		});
-	}
 	//------------------------------------------------
 
 });
@@ -136,6 +110,44 @@ function convertNumberToEnglish(dom) {
 		}
 	}
 	traverse(dom);
+}
+//------------------------------------------------
+
+
+//----------------------Login Inputs Dir---------------------
+function initiateLoginInputs() {
+	let inputs = document.querySelectorAll('.login input[type="text"], .login input[type="password"]');
+	let placeValue = "";
+
+	function update(e) {
+		if (e.value == "") {
+			e.style.direction = 'rtl';
+		} else {
+			e.style.direction = 'ltr';
+		}
+	}
+
+	function updateAll() {
+		inputs.forEach(update);
+	}
+
+	function focusIn() {
+		placeValue = this.getAttribute('placeholder');
+		this.setAttribute('placeholder', '');
+		this.style.direction = 'ltr';
+	}
+
+	function focusOut() {
+		this.setAttribute('placeholder', placeValue);
+		update(this);
+	}
+
+	updateAll();
+	inputs.forEach(e => {
+		e.addEventListener('change', updateAll);
+		e.addEventListener('focusin', focusIn);
+		e.addEventListener('focusout', focusOut);
+	});
 }
 //------------------------------------------------
 
