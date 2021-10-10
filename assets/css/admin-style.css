@@ -1,0 +1,109 @@
+/*------------------------------- Fonts ------------------------------- */
+@font-face {
+    font-family: "FontAwesome";
+    src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
+    src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0")
+            format("embedded-opentype"),
+        url("../fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"),
+        url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"),
+        url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"),
+        url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular")
+            format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "yekan";
+    src: url("../fonts/Yekan.eot");
+    src: url("../fonts/Yekan.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Yekan.woff") format("woff"),
+        url("../fonts/Yekan.ttf") format("truetype"),
+        url("../fonts/Yekan.svg#BYekan") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+/*------------------------------- End of Fonts ------------------------------- */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+select,
+input,
+a,
+label,
+strong {
+    font-family: "yekan" !important;
+}
+#wpcontent #wp-toolbar .menupop a,
+#wpcontent #wp-toolbar .menupop a .ab-label,
+.media-frame,
+.details {
+    font-family: "yekan" !important;
+}
+select {
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+#accordion-section-sch_fonts_options input {
+    direction: ltr;
+}
+#login input {
+    font-family: tahoma !important;
+}
+#login input[type="submit"] {
+    font-family: "yekan" !important;
+}
+#accordion-panel-nav_menus {
+    display: none !important;
+}
+#accordion-section-title_tagline > h3:before {
+    content: "\f05a";
+    font-family: "FontAwesome";
+    padding-left: 5px;
+}
+#accordion-section-sch_header_options > h3:before {
+    content: "\f02e";
+    font-family: "FontAwesome";
+    padding-left: 5px;
+}
+#accordion-section-sch_nav_options > h3:before {
+    content: "\f0c9";
+    font-family: "FontAwesome";
+    padding-left: 5px;
+}
+#accordion-section-sch_sidebar_options > h3:before {
+    content: "\f0db";
+    font-family: "FontAwesome";
+    padding-left: 5px;
+}
+#accordion-section-sch_body_options > h3:before {
+    content: "\f00a";
+    font-family: "FontAwesome";
+    padding-left: 5px;
+}
+#accordion-section-sch_posts_options > h3:before {
+    content: "\f0f6";
+    font-family: "FontAwesome";
+    padding-left: 5px;
+}
+#accordion-section-sch_fonts_options > h3:before {
+    content: "\f034";
+    font-family: "FontAwesome";
+    padding-left: 5px;
+}
+#accordion-section-sch_footer_options > h3:before {
+    content: "\f024";
+    font-family: "FontAwesome";
+    padding-left: 5px;
+}
+#accordion-section-sch_general_options > h3:before {
+    content: "\f1b3";
+    font-family: "FontAwesome";
+    padding-left: 5px;
+}
+.wp-block-html {
+    direction: ltr;
+}

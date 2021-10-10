@@ -1,0 +1,609 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme - Geraked - School\n"
+"POT-Creation-Date: 2021-10-21 14:22+0330\n"
+"PO-Revision-Date: 2021-10-21 14:30+0330\n"
+"Last-Translator: \n"
+"Language-Team: Rabist - https://www.linkedin.com/in/rabist\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: classes/widgets/class-ger-sch-links.php\n"
+"X-Poedit-SearchPathExcluded-2: classes/widgets/class-ger-sch-statistics."
+"php\n"
+
+#: 404.php:57
+msgid "Page Not Found"
+msgstr "صفحه مورد نظر یافت نشد"
+
+#: 404.php:59
+msgid "Return to Home"
+msgstr "بازگشت به خانه"
+
+#: classes/class-ger-sch-customizer.php:80
+msgid "Header"
+msgstr "هدر"
+
+#: classes/class-ger-sch-customizer.php:98
+#: classes/class-ger-sch-customizer.php:205
+#: classes/class-ger-sch-customizer.php:512
+msgid "Background Color"
+msgstr "رنگ پس‌زمینه"
+
+#: classes/class-ger-sch-customizer.php:117
+msgid "Bottom Border Color"
+msgstr "رنگ خط پایین"
+
+#: classes/class-ger-sch-customizer.php:136
+#: classes/class-ger-sch-customizer.php:260
+#: classes/class-ger-sch-customizer.php:582
+msgid "Text Color"
+msgstr "رنگ متن"
+
+#: classes/class-ger-sch-customizer.php:147 header.php:56
+msgid "Imam Khomeini"
+msgstr "امام خمینی استهبان"
+
+#: classes/class-ger-sch-customizer.php:154
+#: classes/widgets/class-ger-sch-html.php:87
+#: classes/widgets/class-ger-sch-latest-comments.php:100
+#: classes/widgets/class-ger-sch-latest-posts.php:125
+#: classes/widgets/class-ger-sch-search.php:85
+msgid "Title"
+msgstr "عنوان"
+
+#: classes/class-ger-sch-customizer.php:165 header.php:55
+msgid "Public Exemplary High School"
+msgstr "دبیرستان نمونه‌دولتی"
+
+#: classes/class-ger-sch-customizer.php:172
+msgid "Description"
+msgstr "توضیحات"
+
+#: classes/class-ger-sch-customizer.php:187 functions.php:23
+msgid "Top Menu"
+msgstr "منوی بالا"
+
+#: classes/class-ger-sch-customizer.php:223
+msgid "Hover Background Color"
+msgstr "رنگ پس‌زمینه هاور"
+
+#: classes/class-ger-sch-customizer.php:241
+msgid "Hover Text Color"
+msgstr "رنگ متن هاور"
+
+#: classes/class-ger-sch-customizer.php:279
+msgid "Border Color"
+msgstr "رنگ کادر"
+
+#: classes/class-ger-sch-customizer.php:294
+msgid "Sidebar"
+msgstr "سایدبار"
+
+#: classes/class-ger-sch-customizer.php:310
+msgid "Position"
+msgstr "موقعیت"
+
+#: classes/class-ger-sch-customizer.php:316
+msgid "Right"
+msgstr "راست"
+
+#: classes/class-ger-sch-customizer.php:317
+msgid "Left"
+msgstr "چپ"
+
+#: classes/class-ger-sch-customizer.php:334
+msgid "Block Title Background Color"
+msgstr "رنگ پس‌زمینه عنوان بلوک"
+
+#: classes/class-ger-sch-customizer.php:353
+msgid "Block Title Text Color"
+msgstr "رنگ متن عنوان بلوک"
+
+#: classes/class-ger-sch-customizer.php:372
+msgid "Block Icon Background Color"
+msgstr "رنگ پس‌زمینه آیکن بلوک"
+
+#: classes/class-ger-sch-customizer.php:391
+msgid "Block Icon Color"
+msgstr "رنگ آیکن بلوک"
+
+#: classes/class-ger-sch-customizer.php:410
+msgid "Block Border Color"
+msgstr "رنگ کادر بلوک"
+
+#: classes/class-ger-sch-customizer.php:425
+msgid "Body"
+msgstr "بدنه"
+
+#: classes/class-ger-sch-customizer.php:442
+msgid "Background Image"
+msgstr "تصویر پس‌زمینه"
+
+#: classes/class-ger-sch-customizer.php:459
+msgid "Background Repeat"
+msgstr "تکرار پس‌زمینه"
+
+#: classes/class-ger-sch-customizer.php:484
+msgid "Background Position"
+msgstr "موقعیت پس‌زمینه"
+
+#: classes/class-ger-sch-customizer.php:527
+msgid "Posts"
+msgstr "نوشته‌ها"
+
+#: classes/class-ger-sch-customizer.php:545
+msgid "Title Color"
+msgstr "رنگ عنوان"
+
+#: classes/class-ger-sch-customizer.php:563
+msgid "Title Hover Color"
+msgstr "رنگ هاور عنوان"
+
+#: classes/class-ger-sch-customizer.php:601
+msgid "More Button Background Color"
+msgstr "رنگ پس‌زمینه دکمه ادامه مطلب"
+
+#: classes/class-ger-sch-customizer.php:620
+msgid "More Button Text Color"
+msgstr "رنگ متن دکمه ادامه مطلب"
+
+#: classes/class-ger-sch-customizer.php:638
+msgid "More Button Hover Background Color"
+msgstr "رنگ پس‌زمینه هاور دکمه ادامه مطلب"
+
+#: classes/class-ger-sch-customizer.php:657
+msgid "Posts Divider Line Color"
+msgstr "رنگ خط جداکننده نوشته‌ها"
+
+#: classes/class-ger-sch-customizer.php:672
+msgid "Fonts"
+msgstr "فونت‌ها"
+
+#: classes/class-ger-sch-customizer.php:688
+msgid "Font Name"
+msgstr "نام فونت"
+
+#: classes/class-ger-sch-customizer.php:710
+msgid "Post Excerpt Title Size"
+msgstr "اندازه عنوان خلاصه نوشته"
+
+#: classes/class-ger-sch-customizer.php:728
+msgid "Post Excerpt Content Size"
+msgstr "اندازه محتوای خلاصه نوشته"
+
+#: classes/class-ger-sch-customizer.php:746
+msgid "Post Excerpt Detail Size"
+msgstr "اندازه جزئیات خلاصه نوشته"
+
+#: classes/class-ger-sch-customizer.php:764
+msgid "Post Excerpt Line Height"
+msgstr "فاصله خطوط خلاصه نوشته"
+
+#: classes/class-ger-sch-customizer.php:782
+msgid "Post Title Size"
+msgstr "اندازه عنوان نوشته"
+
+#: classes/class-ger-sch-customizer.php:800
+msgid "Post Content Size"
+msgstr "اندازه محتوای نوشته"
+
+#: classes/class-ger-sch-customizer.php:818
+msgid "Post Detail Size"
+msgstr "اندازه جزئیات نوشته"
+
+#: classes/class-ger-sch-customizer.php:836
+msgid "Post Line Height"
+msgstr "فاصله خطوط نوشته"
+
+#: classes/class-ger-sch-customizer.php:854
+msgid "Widget Title Size"
+msgstr "اندازه عنوان ابزارک"
+
+#: classes/class-ger-sch-customizer.php:872
+msgid "Post Title Size in Widget"
+msgstr "اندازه عنوان نوشته در ابزارک"
+
+#: classes/class-ger-sch-customizer.php:890
+msgid "Post Content Size in Widget"
+msgstr "اندازه محتوای نوشته در ابزارک"
+
+#: classes/class-ger-sch-customizer.php:908
+msgid "Post Line Height in Widget"
+msgstr "فاصله خطوط نوشته در ابزارک"
+
+#: classes/class-ger-sch-customizer.php:926
+msgid "Header Description Size"
+msgstr "اندازه توضیحات هدر"
+
+#: classes/class-ger-sch-customizer.php:944
+msgid "Header Title Size"
+msgstr "اندازه عنوان هدر"
+
+#: classes/class-ger-sch-customizer.php:962
+msgid "Top Menu Size"
+msgstr "اندازه منوی بالا"
+
+#: classes/class-ger-sch-customizer.php:980
+msgid "Other Size"
+msgstr "اندازه سایر موارد"
+
+#: classes/class-ger-sch-customizer.php:996
+msgid "Footer"
+msgstr "فوتر"
+
+#: classes/class-ger-sch-customizer.php:1012
+msgid "Display"
+msgstr "نمایش"
+
+#: classes/class-ger-sch-customizer.php:1018
+msgid "Three Columns"
+msgstr "سه ستونه"
+
+#: classes/class-ger-sch-customizer.php:1019
+msgid "Three Columns - Pulled Right"
+msgstr "سه ستونه - سمت راست کشیده"
+
+#: classes/class-ger-sch-customizer.php:1020
+msgid "Three Columns - Pulled Left"
+msgstr "سه ستونه - سمت چپ کشیده"
+
+#: classes/class-ger-sch-customizer.php:1021
+msgid "Four Columns"
+msgstr "چهار ستونه"
+
+#: classes/class-ger-sch-customizer.php:1038
+msgid "Top Footer Background Color"
+msgstr "رنگ پس‌زمینه فوتر بالا"
+
+#: classes/class-ger-sch-customizer.php:1057
+msgid "Bottom Footer Background Color"
+msgstr "رنگ پس‌زمینه فوتر پایین"
+
+#: classes/class-ger-sch-customizer.php:1076
+msgid "Top Footer Text Color"
+msgstr "رنگ متن فوتر بالا"
+
+#: classes/class-ger-sch-customizer.php:1095
+msgid "Bottom Footer Text Color"
+msgstr "رنگ متن فوتر پایین"
+
+#: classes/class-ger-sch-customizer.php:1113
+msgid "Top Footer Hover Color"
+msgstr "رنگ هاور فوتر بالا"
+
+#: classes/class-ger-sch-customizer.php:1124 footer.php:74
+msgid "Imam Khomeini High School All Rights Reserved."
+msgstr ""
+"© کلیه حقوق این وب‌سایت متعلق به دبیرستان نمونه‌دولتی امام خمینی استهبان "
+"می‌باشد."
+
+#: classes/class-ger-sch-customizer.php:1131
+msgid "Bottom Footer Content"
+msgstr "محتوای فوتر پایین"
+
+#: classes/class-ger-sch-customizer.php:1146
+msgid "General"
+msgstr "عمومی"
+
+#: classes/class-ger-sch-customizer.php:1162
+msgid "Posts Per Page in Category, Archive and Search Pages"
+msgstr "تعداد نوشته‌های قابل نمایش جستجو، بایگانی و دسته‌بندی در هر صفحه"
+
+#: classes/class-ger-sch-customizer.php:1180
+msgid "Post Excerpt Characters Count"
+msgstr "تعداد کاراکترهای خلاصه نوشته"
+
+#: classes/class-ger-sch-customizer.php:1198
+msgid "Upload Limit For non-admin Users (KB)"
+msgstr "حداکثر حجم مجاز آپلود برای کاربران غیر مدیر (کیلوبایت)"
+
+#: classes/class-ger-sch-customizer.php:1236
+msgid "Reset Theme Settings"
+msgstr "بازنشانی تنظیمات پوسته"
+
+#: classes/class-ger-sch-ocdi.php:206
+msgid "Upgrade Languages"
+msgstr "دریافت بسته‌های زبانی"
+
+#: classes/class-ger-sch-slider.php:33
+msgid "Slides"
+msgstr "اسلایدها"
+
+#: classes/class-ger-sch-slider.php:34 classes/class-ger-sch-slider.php:35
+msgid "Slider"
+msgstr "اسلایدر"
+
+#: classes/class-ger-sch-slider.php:36
+msgid "Slide"
+msgstr "اسلاید"
+
+#: classes/class-ger-sch-slider.php:37 classes/class-ger-sch-slider.php:38
+msgid "Add a new slide"
+msgstr "افزودن اسلاید جدید"
+
+#: classes/class-ger-sch-slider.php:39
+msgid "New slide"
+msgstr "اسلاید جدید"
+
+#: classes/class-ger-sch-slider.php:40
+msgid "Edit slide"
+msgstr "ویرایش اسلاید"
+
+#: classes/class-ger-sch-slider.php:41
+msgid "View slide"
+msgstr "نمایش اسلاید"
+
+#: classes/class-ger-sch-slider.php:42
+msgid "All slides"
+msgstr "همه اسلایدها"
+
+#: classes/class-ger-sch-slider.php:43
+msgid "Search slides"
+msgstr "جستجوی اسایدها"
+
+#: classes/class-ger-sch-slider.php:44 classes/class-ger-sch-slider.php:45
+msgid "No slide found."
+msgstr "اسلایدی یافت نشد."
+
+#: classes/class-ger-sch-slider.php:65
+msgid "Order"
+msgstr "ترتیب"
+
+#: classes/class-ger-sch-slider.php:66
+msgid "Image"
+msgstr "تصویر"
+
+#: classes/widgets/class-ger-sch-html.php:91
+#: classes/widgets/class-ger-sch-latest-comments.php:104
+#: classes/widgets/class-ger-sch-latest-posts.php:129
+#: classes/widgets/class-ger-sch-search.php:89
+msgid "Icon"
+msgstr "آیکن"
+
+#: classes/widgets/class-ger-sch-html.php:95
+msgid "Context"
+msgstr "محتوا"
+
+#: classes/widgets/class-ger-sch-latest-comments.php:22
+#: classes/widgets/class-ger-sch-latest-comments.php:46
+#: classes/widgets/class-ger-sch-latest-comments.php:85
+#: classes/widgets/class-ger-sch-latest-posts.php:46
+#: classes/widgets/class-ger-sch-latest-posts.php:102
+msgid "Recent Comments"
+msgstr "دیدگاه‌های اخیر"
+
+#: classes/widgets/class-ger-sch-latest-comments.php:108
+#: classes/widgets/class-ger-sch-latest-posts.php:133
+msgid "Count"
+msgstr "تعداد"
+
+#: classes/widgets/class-ger-sch-latest-comments.php:112
+msgid "Avatar Size"
+msgstr "اندازه آواتار"
+
+#: classes/widgets/class-ger-sch-latest-comments.php:116
+#: classes/widgets/class-ger-sch-latest-posts.php:137
+msgid "Chars Count"
+msgstr "تعداد کاراکترها"
+
+#: classes/widgets/class-ger-sch-latest-posts.php:22
+msgid "Recent Posts"
+msgstr "نوشته‌های اخیر"
+
+#: classes/widgets/class-ger-sch-latest-posts.php:118
+msgid "Select a Category..."
+msgstr "یک دسته را انتخاب کنید..."
+
+#: classes/widgets/class-ger-sch-latest-posts.php:141
+msgid "Category"
+msgstr "دسته"
+
+#: classes/widgets/class-ger-sch-lms-login.php:22
+msgid "LMS Login"
+msgstr "ورود به LMS"
+
+#: classes/widgets/class-ger-sch-lms-login.php:47
+#: classes/widgets/class-ger-sch-lms-login.php:149
+msgid "Teachers Panel"
+msgstr "پنل معلمان"
+
+#: classes/widgets/class-ger-sch-lms-login.php:50
+#: classes/widgets/class-ger-sch-lms-login.php:152
+msgid "Students Panel"
+msgstr "پنل دانش‌آموزان"
+
+#: classes/widgets/class-ger-sch-lms-login.php:81
+#: classes/widgets/class-ger-sch-lms-login.php:109
+msgid "Username or Password is invalid!"
+msgstr "نام کاربری یا کلمه عبور نامعتبر است!"
+
+#: classes/widgets/class-ger-sch-lms-login.php:87
+#: classes/widgets/class-ger-sch-lms-login.php:115
+msgid "Username"
+msgstr "نام کاربری"
+
+#: classes/widgets/class-ger-sch-lms-login.php:90
+#: classes/widgets/class-ger-sch-lms-login.php:118
+msgid "Password"
+msgstr "کلمه عبور"
+
+#: classes/widgets/class-ger-sch-lms-login.php:94
+#: classes/widgets/class-ger-sch-lms-login.php:122
+msgid "Remember me"
+msgstr "مرا به‌خاطر بسپار"
+
+#: classes/widgets/class-ger-sch-lms-login.php:98
+msgid "Teachers Login"
+msgstr "ورود معلمان"
+
+#: classes/widgets/class-ger-sch-lms-login.php:101
+#: classes/widgets/class-ger-sch-lms-login.php:129
+msgid "Forgot password?"
+msgstr "کلمه عبور را فراموش کرده‌اید؟"
+
+#: classes/widgets/class-ger-sch-lms-login.php:126
+msgid "Students Login"
+msgstr "ورود دانش‌آموزان"
+
+#: classes/widgets/class-ger-sch-lms-login.php:168
+msgid "Teachers Tab Title"
+msgstr "عنوان سربرگ معلمان"
+
+#: classes/widgets/class-ger-sch-lms-login.php:172
+msgid "Students Tab Title"
+msgstr "عنوان سربرگ دانش‌آموزان"
+
+#: classes/widgets/class-ger-sch-lms-login.php:176
+msgid "Teachers Login URL"
+msgstr "آدرس ورود معلمان"
+
+#: classes/widgets/class-ger-sch-lms-login.php:180
+msgid "Students Login URL"
+msgstr "آدرس ورود دانش‌آموزان"
+
+#: classes/widgets/class-ger-sch-lms-login.php:184
+msgid "Teachers Forgot URL"
+msgstr "آدرس فراموشی معلمان"
+
+#: classes/widgets/class-ger-sch-lms-login.php:188
+msgid "Students Forgot URL"
+msgstr "آدرس فراموشی دانش‌آموزان"
+
+#: classes/widgets/class-ger-sch-search.php:22
+#: classes/widgets/class-ger-sch-search.php:46
+#: classes/widgets/class-ger-sch-search.php:79
+msgid "Search"
+msgstr "جستجو"
+
+#: classes/widgets/class-ger-sch-search.php:57
+msgid "Type something..."
+msgstr "چیزی بنویسید..."
+
+#: comments.php:7
+msgid "Enter the password."
+msgstr "کلمه عبور را وارد نمایید."
+
+#: comments.php:16
+msgid "1 Comment"
+msgstr "1 دیدگاه"
+
+#: comments.php:16
+msgid "% Comments"
+msgstr "% دیدگاه"
+
+#: comments.php:36
+msgid "You must Log in to send a comment."
+msgstr "برای ارسال دیدگاه باید به ناحیه کاربری خود وارد شوید."
+
+#: comments.php:37
+msgid "Login"
+msgstr "ورود"
+
+#: comments.php:41
+msgid "Add Comment"
+msgstr "افزودن دیدگاه"
+
+#: comments.php:41
+#, php-format
+msgid "Reply to %s"
+msgstr "پاسخ به %s"
+
+#: comments.php:45
+msgid "Logged in with name"
+msgstr "وارد شده با نام"
+
+#: comments.php:45
+msgid "Logout"
+msgstr "خروج"
+
+#: comments.php:48
+msgid "First Name & Last Name"
+msgstr "نام و نام خانوادگی"
+
+#: comments.php:51
+msgid "Email"
+msgstr "ایمیل"
+
+#: comments.php:54
+msgid "Website"
+msgstr "وب‌سایت"
+
+#: comments.php:61
+msgid "Submit"
+msgstr "ارسال"
+
+#: search.php:11
+msgid "Search Results for"
+msgstr "نتایج جستجو برای"
+
+#: template-parts/posts.php:35
+msgid "Read More"
+msgstr "ادامه مطلب"
+
+#: template-parts/posts.php:44
+msgid "&rarr; Previous Page"
+msgstr "&rarr; جدیدتر"
+
+#: template-parts/posts.php:47
+msgid "Next Page &larr;"
+msgstr "قدیمی‌تر &larr;"
+
+#: template-parts/posts.php:53 template-parts/single.php:54
+msgid "404 Error"
+msgstr "خطای 404"
+
+#: template-parts/posts.php:54 template-parts/single.php:55
+msgid "Sorry! Nothing found."
+msgstr "متأسفیم! موردی یافت نشد."
+
+#. Theme Name of the plugin/theme
+msgid "School"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/geraked/wordpress-theme-school"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "RTL Theme for Schools"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rabist - Geraked"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.linkedin.com/in/rabist"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr "تمام صفحه"
+
+#, fuzzy
+#~| msgid "Recent Posts"
+#~ msgid "Total Posts"
+#~ msgstr "نوشته‌های اخیر"
+
+#, fuzzy
+#~| msgid "% Comments"
+#~ msgid "Total Comments"
+#~ msgstr "% دیدگاه"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User Average"
+#~ msgstr "نام کاربری"
